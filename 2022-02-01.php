@@ -15,6 +15,8 @@
       $numer = 0;
 
       function isodd(){
+        //checks if number is odd
+        //and prints it 
         $number = $_POST['num'];
 
         if ($number % 2 == 0) {
