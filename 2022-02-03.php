@@ -7,6 +7,8 @@
   <body>
     <?php
       function printSome(){
+		// just trying around 
+		// don´t understand to use buttons in one script soooo...
         $buttonStart = "<button>";
         $buttonEnd = "<button/>";
         $text = "hello sir!";
