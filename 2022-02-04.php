@@ -31,7 +31,7 @@ function arraysTry2($arr){
 
 
 function execute(){
-	$arr = array("hello", "friends", "me", "learning", 			"php");
+	$arr = array("hello", "friends", "me", "learning", "php");
     arraysTry($arr);
     echo "</br>";
 	arraysTry2($arr);
