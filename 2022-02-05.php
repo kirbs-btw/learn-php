@@ -16,8 +16,8 @@
           //arrays with index can´t be put in strings
 
           $multiArr = array(
-            array("hallo 1", "hallo 2"),
-            array("hallo 3", "hallo 4")
+            array("hello 1", "hello 2"),
+            array("hello 3", "hello 4")
           );
 
           for ($i=0; $i < count($multiArr); $i++) {
