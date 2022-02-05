@@ -6,17 +6,21 @@
   </head>
   <body>
     <?php
-
-
         function printMultiArr(){
+          //learning to use nested for loops
+          //and multidimensional arrays
+
+          //learned:
+          //alway forgot the $ befor a variable
+          //variables arrent global by default
+          //arrays with index can´t be put in strings
+
           $multiArr = array(
             array("hallo 1", "hallo 2"),
             array("hallo 3", "hallo 4")
           );
-          //echo count($multiArr);
 
           for ($i=0; $i < count($multiArr); $i++) {
-            //echo "hi";
             for ($j=0; $j < count($multiArr[$i]); $j++) {
                 echo $multiArr[$i][$j] . " ";
             }
