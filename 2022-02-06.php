@@ -15,7 +15,7 @@
       //globals arent always the best prev written python :)
       //array are a bit odd to echo with usable debug info
 
-      $wordArr = array("Tom", "Sam", "Stinson");
+      $wordArr = array("Tom", "Sam", "Stinson", "Jason", "Ash");
       $numArr = array(18, 2, 7, 112);
 
       function sortArr($arr){
