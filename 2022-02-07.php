@@ -8,6 +8,15 @@
     <?php
     // messing around with math in php
 
+    // learned:
+    // -missing semicolons every time
+    // -plan code a bit and creating more functions to shorten code
+    // -php is pretty similar to python with it´s math functions
+    // new functions learned:
+    // pi(), rand(), round(), sqrt()
+
+
+
     function printArray($arr){
       for ($i=0; $i < count($arr); $i++) {
         echo $arr[$i]. "</br>";
