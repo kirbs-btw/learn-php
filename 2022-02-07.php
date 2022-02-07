@@ -45,6 +45,20 @@
       return $arr;
     }
 
+    function sqrtArray(){
+      $arr = array();
+
+      for ($i=0; $i < 10; $i++) {
+        $num = sqrt($i);
+        array_push($arr, $num);
+
+      }
+      printArray($arr);
+
+    }
+
+    sqrtArray();
+    echo "</br>";
     randList();
     echo "</br>";
     randPIstuff();
