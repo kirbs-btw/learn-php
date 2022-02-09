@@ -12,6 +12,7 @@
     // d = 09
     // l = Wednesday
     
+	//date is case sentitive !
 
 define("today", date("Y-m-d"));
 
