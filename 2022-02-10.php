@@ -8,7 +8,11 @@
     <?php
       // today i looked at switch cases ! :)
       //
-      //
+      // learned:
+      // -switch cases have more style
+      // -don´t understand the diff. between if/else und switches
+      // -missing semicolon
+      // -wrong position in the brackets 
 
       function example(){
         $num = 1;
