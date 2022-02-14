@@ -6,7 +6,14 @@
   </head>
   <body>
     <?php
-    
+      // looked at oop today
+      //
+      // learned:
+      // -quite similar to oop in python
+      //      --> use -> instead of a .
+      // -somewhat awkward to type inner class stuff without a $
+      // -the self from python = $this
+      // --> quite complicated not as intuitiv as python 
 
       class person{
         public $name;
