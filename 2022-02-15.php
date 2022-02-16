@@ -9,7 +9,7 @@
       // object in object try
       // object quarry works like
       // $this->thing->here
-      
+      // classes in classes get easy messy
 
 
       class hobby{
