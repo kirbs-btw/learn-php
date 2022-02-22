@@ -11,7 +11,11 @@
       // if the one is bigger swap them
       // nested for loops
       // array_swap(); did not work unsure why
-      
+      // learned:
+      // -count() is often a bit awkward to use
+      //      --> substitute by something like $arrLen = count($arr);
+      // -still forgetting the ;
+
       $numbers = array(4, 5, 3, 2, 7, 9, 2, 3, 12, 4);
 
       function swapValues($arr, $a, $b){
