@@ -6,7 +6,14 @@
   </head>
   <body>
       <?php
-        
+        // trying regex
+        // replaceing stuff preg_replace() does not change the string
+        // it self.
+        //
+        // regular expressions are intersting to use
+        // /[something]/ can´t be used to replace things (as far as i know please correct :) )
+        //
+        // if your string contains / like in the regex  you have to use # or ~ instead of /
 
         $coolString = "hello my freind, would u like to see something cool";
 
