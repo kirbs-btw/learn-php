@@ -6,7 +6,10 @@
   </head>
   <body>
     <?php
-
+    // constructor and destructor
+    //
+    // costructor == __init__ in py
+    // destruct -> to sure what a real use case is by now -> to be investigated
 
     class items{
       public $type;
