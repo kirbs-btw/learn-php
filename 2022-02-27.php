@@ -7,7 +7,8 @@
   <body>
     <?php
       // json encoding and decoding
-
+      // saveing an array as json to decode to an php array
+      // converts easy used like every array
 
       $items = array("Apple" =>12, "Handy"=>500, "Wood"=>2.5);
       $itemsJ = json_encode($items);
