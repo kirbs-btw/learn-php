@@ -7,7 +7,12 @@
   <body>
     <?php
       // exeptions !
-      //
+      // exeptions should be paired with try and catch statements
+      // exeptions have many information to it like
+      // getCode()
+      // getMessage()
+      // getFile()
+      // getLine()
 
       function divide($dividend, $divisor){
         if ($divisor == 0) {
@@ -25,12 +30,12 @@
         try {
           echo divide(12, 0);
         } catch (Exception $e) {
-          $code = $e->getCode();
+          // $code = $e->getCode(); -> just here as note 
           $message = $e->getMessage();
           $file = $e->getFile();
           $line = $e->getLine();
 
-          echo "exception on line $line in $file";
+          echo "exception on line $line in $file thrown error is: $message";
         }
       }
       executeStuff();
